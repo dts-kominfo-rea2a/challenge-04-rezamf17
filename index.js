@@ -8,7 +8,12 @@ const dates = [
 ];
 
 // TODO: Buatlah fungsi createDate
-const createDate = null;
+const createDate = (dates, index) => {
+  for (let i = 0; i < dates.length; i++) {
+    console.log(dates[i])
+  }
+return Date.parse(dates[index])
+};
 
 // ! JANGAN DIMODIFIKASI
 (() => {
